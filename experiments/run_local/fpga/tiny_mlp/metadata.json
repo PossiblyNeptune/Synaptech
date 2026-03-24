@@ -1,0 +1,38 @@
+{
+  "run_id": "run_local",
+  "model_file": "experiments\\run_local\\models\\tiny_mlp.pkl",
+  "classes": [
+    "human",
+    "noise",
+    "vehicle"
+  ],
+  "quantization": {
+    "format": "Qm.n",
+    "frac_bits": 15
+  },
+  "artifacts": {
+    "float_npz": "experiments\\run_local\\fpga\\tiny_mlp\\weights_float.npz",
+    "quant_npz": "experiments\\run_local\\fpga\\tiny_mlp\\weights_q.npz",
+    "c_header": "experiments\\run_local\\fpga\\tiny_mlp\\weights_q15.h"
+  },
+  "model": {
+    "model_type": "tiny_mlp",
+    "w1_shape": [
+      14,
+      16
+    ],
+    "b1_shape": [
+      16
+    ],
+    "w2_shape": [
+      16,
+      3
+    ],
+    "b2_shape": [
+      3
+    ],
+    "q_scale": 32768.0,
+    "activation_hidden": "relu",
+    "activation_output": "softmax"
+  }
+}

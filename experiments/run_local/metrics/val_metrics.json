@@ -1,0 +1,48 @@
+{
+  "run_id": "run_local",
+  "num_train": 30837,
+  "num_val": 7502,
+  "num_features": 14,
+  "feature_columns": [
+    "f_acc_mean",
+    "f_acc_std",
+    "f_acc_range",
+    "f_acc_energy_proxy",
+    "f_lin_mean",
+    "f_lin_std",
+    "f_lin_range",
+    "f_lin_energy_proxy",
+    "f_gyr_mean",
+    "f_gyr_std",
+    "f_gyr_range",
+    "f_gyr_energy_proxy",
+    "f_motion_ratio",
+    "f_gyro_vs_linear"
+  ],
+  "models": {
+    "tiny_mlp": {
+      "accuracy": 0.8392428685683818,
+      "f1_macro": 0.8427950986240984,
+      "per_class": {
+        "human": {
+          "precision": 0.8862815884476535,
+          "recall": 0.8923216719672876,
+          "f1": 0.8892913742359068,
+          "support": 2201
+        },
+        "noise": {
+          "precision": 0.802206162038798,
+          "recall": 0.8853904282115869,
+          "f1": 0.8417481540610656,
+          "support": 2382
+        },
+        "vehicle": {
+          "precision": 0.8366578848325179,
+          "recall": 0.7615621788283659,
+          "f1": 0.7973457675753228,
+          "support": 2919
+        }
+      }
+    }
+  }
+}

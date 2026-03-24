@@ -1,0 +1,46 @@
+{
+  "run_id": "run_local",
+  "selected_model": "tiny_mlp",
+  "allowed_sources": [
+    "bridge",
+    "tmd",
+    "uci_har"
+  ],
+  "removed_rows_non_relevant_sources": 0,
+  "num_samples_test": 7513,
+  "num_features": 14,
+  "accuracy": 0.8312258751497404,
+  "balanced_accuracy": 0.8390272745774047,
+  "f1_macro": 0.835012847901102,
+  "f1_weighted": 0.830328348393569,
+  "matthews_corrcoef": 0.747884958982751,
+  "cohen_kappa": 0.7460653389254408,
+  "per_class": {
+    "human": {
+      "precision": 0.8867753623188406,
+      "recall": 0.8875793291024479,
+      "f1": 0.8871771635704576,
+      "support": 2206
+    },
+    "noise": {
+      "precision": 0.7844378257632166,
+      "recall": 0.8834381551362683,
+      "f1": 0.8309998028002367,
+      "support": 2385
+    },
+    "vehicle": {
+      "precision": 0.8323787705231004,
+      "recall": 0.7460643394934976,
+      "f1": 0.7868615773326114,
+      "support": 2922
+    }
+  },
+  "roc_auc_macro_ovr": 0.9442469980167623,
+  "average_precision_macro": 0.904787160502349,
+  "feature_importance_plot": "not_available_for_model_type",
+  "export": {
+    "onnx_exported": false,
+    "int8_quantized": false,
+    "message": "ONNX export skipped: No module named 'skl2onnx'"
+  }
+}

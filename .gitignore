@@ -1,0 +1,68 @@
+# =========================
+# Edge AI seismic project
+# Keep repository focused on source/config/docs only
+# =========================
+
+# Python cache and local envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Logs and runtime scratch
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# Large/raw datasets
+# -------------------------
+data/raw/
+data/interim/
+data/processed/
+data/external/
+dump/
+
+# Any accidental dataset drops at repo root
+*.mat
+*.sac
+*.sac-hd
+*.zip
+*.7z
+*.tar
+*.gz
+
+# -------------------------
+# Experiments are intentionally tracked
+# (models, metrics, plots, FPGA artifacts for collaborators)
+# -------------------------
+
+# -------------------------
+# Deprecated/extra docs
+# Keep only README.md and plan.md as requested
+# -------------------------
+docs/
+
+# -------------------------
+# Optional: notebook and local analysis scratch
+# -------------------------
+*.ipynb
+.ipynb_checkpoints/
+
+# -------------------------
+# Git / tooling leftovers
+# -------------------------
+*.orig
+*.rej
