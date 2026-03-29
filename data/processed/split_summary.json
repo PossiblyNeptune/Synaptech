@@ -1,0 +1,80 @@
+{
+  "input": "data\\processed\\features_all.csv",
+  "allowed_sources": [
+    "bridge",
+    "tmd",
+    "uci_har"
+  ],
+  "removed_rows_non_relevant_sources": 0,
+  "train_frac": 0.7,
+  "val_frac": 0.15,
+  "test_frac": 0.15000000000000005,
+  "balance": "train",
+  "seed": 42,
+  "train": {
+    "rows": 30837,
+    "class_counts": {
+      "vehicle": 10279,
+      "human": 10279,
+      "noise": 10279
+    },
+    "source_counts": {
+      "tmd": 23271,
+      "uci_har": 6912,
+      "bridge": 654
+    },
+    "source_class": {
+      "bridge|human": 480,
+      "bridge|vehicle": 174,
+      "tmd|human": 6529,
+      "tmd|noise": 6637,
+      "tmd|vehicle": 10105,
+      "uci_har|human": 3270,
+      "uci_har|noise": 3642
+    }
+  },
+  "val": {
+    "rows": 7502,
+    "class_counts": {
+      "vehicle": 2919,
+      "noise": 2382,
+      "human": 2201
+    },
+    "source_counts": {
+      "tmd": 5807,
+      "uci_har": 1544,
+      "bridge": 151
+    },
+    "source_class": {
+      "bridge|human": 102,
+      "bridge|vehicle": 49,
+      "tmd|human": 1399,
+      "tmd|noise": 1538,
+      "tmd|vehicle": 2870,
+      "uci_har|human": 700,
+      "uci_har|noise": 844
+    }
+  },
+  "test": {
+    "rows": 7513,
+    "class_counts": {
+      "vehicle": 2922,
+      "noise": 2385,
+      "human": 2206
+    },
+    "source_counts": {
+      "tmd": 5812,
+      "uci_har": 1547,
+      "bridge": 154
+    },
+    "source_class": {
+      "bridge|human": 104,
+      "bridge|vehicle": 50,
+      "tmd|human": 1400,
+      "tmd|noise": 1540,
+      "tmd|vehicle": 2872,
+      "uci_har|human": 702,
+      "uci_har|noise": 845
+    }
+  }
+}

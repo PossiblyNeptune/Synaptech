@@ -1,0 +1,296 @@
+{
+  "bridge": {
+    "android.sensor.accelerometer#mean": {
+      "q01": 0.1207239424,
+      "q99": 0.5850862474000003,
+      "median": 0.20046118,
+      "iqr": 0.07686502500000003
+    },
+    "android.sensor.accelerometer#min": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.accelerometer#max": {
+      "q01": 0.48588399039999997,
+      "q99": 4.308395582400001,
+      "median": 0.89617986,
+      "iqr": 0.575717735
+    },
+    "android.sensor.accelerometer#std": {
+      "q01": 0.098249584,
+      "q99": 0.7102272894000002,
+      "median": 0.16185369,
+      "iqr": 0.09005517999999998
+    },
+    "android.sensor.linear_acceleration#mean": {
+      "q01": 0.1207239424,
+      "q99": 0.5850862474000003,
+      "median": 0.20046118,
+      "iqr": 0.07686502500000003
+    },
+    "android.sensor.linear_acceleration#min": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.linear_acceleration#max": {
+      "q01": 0.48588399039999997,
+      "q99": 4.308395582400001,
+      "median": 0.89617986,
+      "iqr": 0.575717735
+    },
+    "android.sensor.linear_acceleration#std": {
+      "q01": 0.098249584,
+      "q99": 0.7102272894000002,
+      "median": 0.16185369,
+      "iqr": 0.09005517999999998
+    },
+    "android.sensor.gyroscope#mean": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope#min": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope#max": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope#std": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope_uncalibrated#mean": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope_uncalibrated#min": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope_uncalibrated#max": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    },
+    "android.sensor.gyroscope_uncalibrated#std": {
+      "q01": 0.0,
+      "q99": 0.0,
+      "median": 0.0,
+      "iqr": 1.0
+    }
+  },
+  "tmd": {
+    "android.sensor.accelerometer#mean": {
+      "q01": 5.6487791096,
+      "q99": 15.542975687799983,
+      "median": 9.8389812,
+      "iqr": 0.4780978099999995
+    },
+    "android.sensor.accelerometer#min": {
+      "q01": 3.6948781582,
+      "q99": 14.795505815199997,
+      "median": 9.70531556,
+      "iqr": 0.7949637999999997
+    },
+    "android.sensor.accelerometer#max": {
+      "q01": 5.687885312600001,
+      "q99": 25.780118766799973,
+      "median": 9.97797321,
+      "iqr": 0.8243640899999995
+    },
+    "android.sensor.accelerometer#std": {
+      "q01": 0.0011950446000000003,
+      "q99": 9.325923350999995,
+      "median": 0.26119763,
+      "iqr": 0.98476179
+    },
+    "android.sensor.linear_acceleration#mean": {
+      "q01": 0.0084926276,
+      "q99": 10.310651665999995,
+      "median": 0.55990588,
+      "iqr": 1.6528512800000001
+    },
+    "android.sensor.linear_acceleration#min": {
+      "q01": 0.0052794506,
+      "q99": 8.67883902,
+      "median": 0.4829167,
+      "iqr": 1.495505195
+    },
+    "android.sensor.linear_acceleration#max": {
+      "q01": 0.00852634,
+      "q99": 17.103783778399993,
+      "median": 0.6028929,
+      "iqr": 1.8106235199999998
+    },
+    "android.sensor.linear_acceleration#std": {
+      "q01": 0.0011105,
+      "q99": 6.907481741799967,
+      "median": 0.1520511,
+      "iqr": 0.52304209
+    },
+    "android.sensor.gyroscope#mean": {
+      "q01": 0.00122173,
+      "q99": 2.841447323399998,
+      "median": 0.06940588,
+      "iqr": 0.358909765
+    },
+    "android.sensor.gyroscope#min": {
+      "q01": 0.0,
+      "q99": 2.39796262,
+      "median": 0.04493441,
+      "iqr": 0.25704987
+    },
+    "android.sensor.gyroscope#max": {
+      "q01": 0.00122173,
+      "q99": 4.423351316399999,
+      "median": 0.08511478,
+      "iqr": 0.45207679
+    },
+    "android.sensor.gyroscope#std": {
+      "q01": 5.239240000000012e-05,
+      "q99": 1.4980312193999987,
+      "median": 0.01900656,
+      "iqr": 0.12743811
+    },
+    "android.sensor.gyroscope_uncalibrated#mean": {
+      "q01": 0.0122783984,
+      "q99": 3.037859311599999,
+      "median": 0.07325528,
+      "iqr": 0.32158877
+    },
+    "android.sensor.gyroscope_uncalibrated#min": {
+      "q01": 0.00760751,
+      "q99": 2.907981043399996,
+      "median": 0.06030752,
+      "iqr": 0.28279035999999996
+    },
+    "android.sensor.gyroscope_uncalibrated#max": {
+      "q01": 0.0129907066,
+      "q99": 4.355042216799991,
+      "median": 0.08065622,
+      "iqr": 0.36337380500000005
+    },
+    "android.sensor.gyroscope_uncalibrated#std": {
+      "q01": 0.00016929400000000006,
+      "q99": 1.5820800091999931,
+      "median": 0.01947579,
+      "iqr": 0.11304260999999999
+    }
+  },
+  "uci_har": {
+    "android.sensor.accelerometer#mean": {
+      "q01": 0.9944165594,
+      "q99": 1.0794434534,
+      "median": 1.03179431,
+      "iqr": 0.025390350000000117
+    },
+    "android.sensor.accelerometer#min": {
+      "q01": 0.2847014764,
+      "q99": 1.03171222,
+      "median": 0.97648915,
+      "iqr": 0.40396513
+    },
+    "android.sensor.accelerometer#max": {
+      "q01": 1.0041675818,
+      "q99": 2.26115211,
+      "median": 1.06567084,
+      "iqr": 0.6825082650000001
+    },
+    "android.sensor.accelerometer#std": {
+      "q01": 0.0019093282000000001,
+      "q99": 0.47984884260000027,
+      "median": 0.01185778,
+      "iqr": 0.256317245
+    },
+    "android.sensor.linear_acceleration#mean": {
+      "q01": 0.0049903242,
+      "q99": 0.47118157660000004,
+      "median": 0.04695296,
+      "iqr": 0.29364199
+    },
+    "android.sensor.linear_acceleration#min": {
+      "q01": 0.0003737022,
+      "q99": 0.1186785016,
+      "median": 0.00619555,
+      "iqr": 0.054131584999999996
+    },
+    "android.sensor.linear_acceleration#max": {
+      "q01": 0.012117567,
+      "q99": 1.3411913284000014,
+      "median": 0.14393385,
+      "iqr": 0.728313655
+    },
+    "android.sensor.linear_acceleration#std": {
+      "q01": 0.002293096,
+      "q99": 0.25856097700000014,
+      "median": 0.03054473,
+      "iqr": 0.13564635
+    },
+    "android.sensor.gyroscope#mean": {
+      "q01": 0.0064033034,
+      "q99": 1.256014737,
+      "median": 0.17577905,
+      "iqr": 0.7077845150000001
+    },
+    "android.sensor.gyroscope#min": {
+      "q01": 0.0005835608000000001,
+      "q99": 0.33199676420000024,
+      "median": 0.03245714,
+      "iqr": 0.12470911500000001
+    },
+    "android.sensor.gyroscope#max": {
+      "q01": 0.015015864600000001,
+      "q99": 3.5715013486000027,
+      "median": 0.46591828,
+      "iqr": 1.593523315
+    },
+    "android.sensor.gyroscope#std": {
+      "q01": 0.0028311078,
+      "q99": 0.6789462754000003,
+      "median": 0.0944581,
+      "iqr": 0.310211705
+    },
+    "android.sensor.gyroscope_uncalibrated#mean": {
+      "q01": 0.0064033034,
+      "q99": 1.256014737,
+      "median": 0.17577905,
+      "iqr": 0.7077845150000001
+    },
+    "android.sensor.gyroscope_uncalibrated#min": {
+      "q01": 0.0005835608000000001,
+      "q99": 0.33199676420000024,
+      "median": 0.03245714,
+      "iqr": 0.12470911500000001
+    },
+    "android.sensor.gyroscope_uncalibrated#max": {
+      "q01": 0.015015864600000001,
+      "q99": 3.5715013486000027,
+      "median": 0.46591828,
+      "iqr": 1.593523315
+    },
+    "android.sensor.gyroscope_uncalibrated#std": {
+      "q01": 0.0028311078,
+      "q99": 0.6789462754000003,
+      "median": 0.0944581,
+      "iqr": 0.310211705
+    }
+  }
+}

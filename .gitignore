@@ -31,8 +31,6 @@ Thumbs.db
 # -------------------------
 data/raw/
 data/interim/
-data/processed/
-data/external/
 dump/
 
 # Any accidental dataset drops at repo root
@@ -48,12 +46,6 @@ dump/
 # Experiments are intentionally tracked
 # (models, metrics, plots, FPGA artifacts for collaborators)
 # -------------------------
-
-# -------------------------
-# Deprecated/extra docs
-# Keep only README.md and plan.md as requested
-# -------------------------
-docs/
 
 # -------------------------
 # Optional: notebook and local analysis scratch
